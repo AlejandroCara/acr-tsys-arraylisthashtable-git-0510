@@ -1,6 +1,5 @@
 package Ej3;
 
-import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.Scanner;
 
@@ -31,7 +30,6 @@ public class Ej3App {
 		teclado.close();
 	}
 
-	private final String asdfg = "";
 	// Metodo para pedir un valor válido parta los parametros
 	public static String pedirProducto(Scanner teclado, Hashtable<String, Double> productoPrecio, Hashtable<String, Integer> productoStock) {
 
